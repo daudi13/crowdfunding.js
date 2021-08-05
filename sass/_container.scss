@@ -11,8 +11,6 @@
     position: relative;
     z-index: 9;
 
-    
-
     .hero__mobile-nav {
         padding: 20px;
         z-index: 10;
@@ -85,13 +83,13 @@
     }
 }
 
-.active.hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        background: rgba(255, 255, 255, 0.5);
-        z-index: -1;
-    }
+// .active.hero::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: 100vh;
+//     width: 100%;
+//     background: rgba(255, 255, 255, 0.5);
+//     z-index: -1;
+// }
