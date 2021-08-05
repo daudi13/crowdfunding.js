@@ -117,4 +117,95 @@ img {
   font-size: 23px;
   width: 100%;
 }
+
+.content-container {
+  width: 80vw;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  right: 40px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  z-index: 9;
+  -webkit-box-shadow: 3px 5px 9px;
+          box-shadow: 3px 5px 9px;
+}
+
+.content-container .intro-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.content-container .intro-desc .intro-logo {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: -3px;
+  padding: 0 !important;
+}
+
+.content-container .intro-desc h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.content-container .intro-desc p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7a7a7a;
+  padding: 15px 0;
+}
+
+.content-container .intro-desc .bookmark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+}
+
+.content-container .intro-desc .bookmark span {
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 700;
+  background: #3cb4ac;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-container .intro-desc .bookmark .bookmark-btn {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.content-container .intro-desc .bookmark .bookmark-btn p {
+  display: none;
+}
+
+.content-container hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */
