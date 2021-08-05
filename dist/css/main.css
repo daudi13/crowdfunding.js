@@ -15,6 +15,10 @@ h1, h2, h3, p, span, button {
   font-family: 'Commissioner', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .hero {
   background-image: url("/images/image-hero-mobile.jpg");
   background-position: top;
@@ -51,11 +55,60 @@ h1, h2, h3, p, span, button {
   width: 25px;
 }
 
+.hero .hero__mobile-nav .header .active.hamburger {
+  display: none;
+}
+
 .hero .hero__mobile-nav .header .close {
   display: none;
 }
 
+.hero .hero__mobile-nav .header .active.close {
+  display: block;
+  width: 25px;
+}
+
 .hero .hero__mobile-nav .header__menu {
   display: none;
+}
+
+.hero .hero__mobile-nav .active.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85vw;
+  margin: 35px auto 0;
+  background: #fff;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero .hero__mobile-nav .active.header__menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.hero .hero__mobile-nav .active.header__menu ul li {
+  list-style: none;
+  padding: 25px;
+}
+
+.hero .hero__mobile-nav .active.header__menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 23px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
