@@ -107,7 +107,7 @@ img {
 .hero .hero__mobile-nav .active.header__menu ul li {
   list-style: none;
   padding: 25px;
-  border-bottom: #7a7a7a;
+  border-bottom: #147b74;
   width: 100%;
 }
 
@@ -165,7 +165,7 @@ img {
 .content-container .intro-desc p {
   font-size: 18px;
   font-weight: 500;
-  color: #7a7a7a;
+  color: #147b74;
   padding: 25px 0;
 }
 
@@ -237,5 +237,13 @@ img {
   height: 1px;
   background-color: #7a7a7a;
   margin: auto;
+}
+
+.content-container .cash-section .thermometre {
+  width: 90%;
+  height: 15px;
+  background-color: #e0e0e0;
+  margin: auto;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

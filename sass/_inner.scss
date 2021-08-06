@@ -95,7 +95,7 @@
 
             .fig-desc {
                 font-weight: 500;
-                color: $dark-cyan;
+                color: $dark-grey;
             }
         }
 
@@ -104,12 +104,17 @@
             transform: translate(-50%, -650%);
             width: 85px;
             height: 1px;
-            background-color: $dark-cyan;
+            background-color: $dark-grey;
             margin: auto;
-
         }
 
-        
+        .thermometre {
+            width: 90%;
+            height: 15px;
+            background-color: $light-grey;
+            margin: auto;
+            border-radius: 10px;
+        }
     }
 
 
