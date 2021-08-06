@@ -293,12 +293,47 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .content-container .about .about-box .title-box p {
   color: #3cb4ac;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.content-container .about .about-box .about-content__desc {
+  line-height: 1.5;
+}
+
+.content-container .about .about-box .about-price {
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-container .about .about-box .about-price div {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 8px;
+}
+
+.content-container .about .about-box .about-price span {
+  color: #7a7a7a;
+}
+
+.content-container .about .about-box .about-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 25px;
+  background: #147b74;
+  border: none;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=main.css.map */
