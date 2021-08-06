@@ -11,9 +11,18 @@
     position: relative;
     z-index: 9;
 
+    @include breakpoint-up(tablet) {
+        background-image: url('/images/image-hero-desktop.jpg');
+        height: 250px;
+    }
+
     .hero__mobile-nav {
         padding: 20px;
         z-index: 10;
+
+        @include breakpoint-up(tablet){
+            
+        }
 
         .header {
             display: flex;
@@ -29,6 +38,10 @@
 
             .hamburger {
                 width: 25px;
+
+                @include breakpoint-up(tablet){
+                    display: none;
+            }
             }
 
             .active.hamburger {

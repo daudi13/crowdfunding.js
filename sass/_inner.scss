@@ -6,7 +6,6 @@
     left: 40px;
     right: 40px;
     background: transparent;
-    
     padding: 0;
     z-index: 9;
     
@@ -26,7 +25,7 @@
             position: absolute;
             transform: translateY(-50%);
             top: -3px;
-            padding: 0!important;
+            padding: 0;
         }
 
         h2 {
@@ -37,7 +36,7 @@
         p {
             font-size: 18px;
             font-weight: 500;
-            color: $dark-cyan;
+            color: $dark-grey;
             padding: 25px 0;
         }
 
@@ -139,6 +138,7 @@
 
             &__desc{
                 color: $dark-grey;
+                line-height: 1.5;
             }
         }
 
@@ -167,6 +167,12 @@
             .about-content__desc {
                 line-height: 1.5;
             }
+
+            // .box-cont {
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: space-between;
+            // }
 
             .about-price {
                 margin: 25px 0 ;

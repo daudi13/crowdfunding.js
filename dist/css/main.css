@@ -30,6 +30,13 @@ img {
   z-index: 9;
 }
 
+@media (min-width: 48rem) {
+  .hero {
+    background-image: url("/images/image-hero-desktop.jpg");
+    height: 250px;
+  }
+}
+
 .hero .hero__mobile-nav {
   padding: 20px;
   z-index: 10;
@@ -56,6 +63,12 @@ img {
 
 .hero .hero__mobile-nav .header .hamburger {
   width: 25px;
+}
+
+@media (min-width: 48rem) {
+  .hero .hero__mobile-nav .header .hamburger {
+    display: none;
+  }
 }
 
 .hero .hero__mobile-nav .header .active.hamburger {
@@ -154,7 +167,7 @@ img {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   top: -3px;
-  padding: 0 !important;
+  padding: 0;
 }
 
 .content-container .intro-desc h2 {
@@ -165,7 +178,7 @@ img {
 .content-container .intro-desc p {
   font-size: 18px;
   font-weight: 500;
-  color: #147b74;
+  color: #7a7a7a;
   padding: 25px 0;
 }
 
@@ -272,6 +285,7 @@ img {
 
 .content-container .about-content__desc {
   color: #7a7a7a;
+  line-height: 1.5;
 }
 
 .content-container .about .about-box {
