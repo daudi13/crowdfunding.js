@@ -164,7 +164,7 @@ img {
   font-size: 18px;
   font-weight: 500;
   color: #7a7a7a;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .content-container .intro-desc .bookmark {
@@ -202,10 +202,7 @@ img {
   display: none;
 }
 
-.content-container hr {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-top: 20px;
+.content-container .cash-section {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
