@@ -81,9 +81,11 @@
         border-radius: 10px;
         padding: 25px;
         box-shadow: 3px 5px 9px;
+        
 
         .cash {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            position: relative;
 
             .figures{
                 font-size: 25px;
@@ -96,6 +98,18 @@
                 color: $dark-cyan;
             }
         }
+
+        .under-line {
+            position: absolute;
+            transform: translate(-50%, -650%);
+            width: 85px;
+            height: 1px;
+            background-color: $dark-cyan;
+            margin: auto;
+
+        }
+
+        
     }
 
 

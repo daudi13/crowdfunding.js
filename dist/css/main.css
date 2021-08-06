@@ -214,7 +214,8 @@ img {
 }
 
 .content-container .cash-section .cash {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .content-container .cash-section .cash .figures {
@@ -226,5 +227,15 @@ img {
 .content-container .cash-section .cash .fig-desc {
   font-weight: 500;
   color: #7a7a7a;
+}
+
+.content-container .cash-section .under-line {
+  position: absolute;
+  -webkit-transform: translate(-50%, -650%);
+          transform: translate(-50%, -650%);
+  width: 85px;
+  height: 1px;
+  background-color: #7a7a7a;
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
