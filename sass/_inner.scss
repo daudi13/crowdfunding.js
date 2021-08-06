@@ -114,6 +114,13 @@
             background-color: $light-grey;
             margin: auto;
             border-radius: 10px;
+
+            .mercury {
+                height: 100%;
+                width: 80%;
+                background: $dark-cyan;
+                border-radius: inherit;
+            }
         }
     }
 
