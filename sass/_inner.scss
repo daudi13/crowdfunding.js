@@ -1,0 +1,102 @@
+.content-container {
+    width: 80vw;
+    margin: auto;
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    right: 40px;
+    background: transparent;
+    
+    padding: 0;
+    z-index: 9;
+    
+
+    .intro-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 25px;
+        background: $white;
+        box-shadow: 3px 5px 9px;
+        border-radius: 10px;
+ 
+
+        .intro-logo {
+            position: absolute;
+            transform: translateY(-50%);
+            top: -3px;
+            padding: 0!important;
+        }
+
+        h2 {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 500;
+            color: $dark-cyan;
+            padding: 25px 0;
+        }
+
+        .bookmark {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 70%;
+
+            span {
+                padding: 15px 25px;
+                color: $white;
+                font-weight: 700;
+                background: $moderate-cyab;
+                border-radius: 30px;
+                display: flex;
+                align-items: center;
+            }
+
+            .bookmark-btn {
+                margin-left: 20px;
+                text-align: center;
+
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // .separator {
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     margin-top: 20px;
+    // }
+
+    .cash-section {
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 3px 5px 9px;
+
+        .cash {
+            margin-bottom: 20px;
+
+            .figures{
+                font-size: 25px;
+                font-weight: 700;
+                color: $black;
+            }
+
+            .fig-desc {
+                font-weight: 500;
+                color: $dark-cyan;
+            }
+        }
+    }
+
+
+}
