@@ -231,7 +231,19 @@
                     font-size: 15px;
                     margin-top: 10px;
                     text-transform: capitalize;
+
+                    @include breakpoint-up (tablet) {
+                        margin-top: 0;
+                    }
                 }
+            }
+
+            @include breakpoint-up(tablet) {
+                .box-cont {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
             }
 
             .about-content__desc {

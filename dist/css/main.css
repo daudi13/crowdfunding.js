@@ -475,6 +475,26 @@ img {
   text-transform: capitalize;
 }
 
+@media (min-width: 48rem) {
+  .content-container .about .about-box .title-box p {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 48rem) {
+  .content-container .about .about-box .box-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .content-container .about .about-box .about-content__desc {
   line-height: 1.5;
 }
