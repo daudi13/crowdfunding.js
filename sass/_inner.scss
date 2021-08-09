@@ -124,7 +124,19 @@
         border-radius: 10px;
         padding: 25px;
         box-shadow: 3px 5px 9px;
-        
+
+        @include breakpoint-up(tablet) {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .figures {
+                display: flex;
+                width: 86%;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
 
         .cash {
             margin-bottom: 30px;
@@ -149,6 +161,10 @@
             height: 1px;
             background-color: $dark-grey;
             margin: auto;
+
+            @include breakpoint-up(tablet) {
+                display: none;
+            }
         }
 
         .thermometre {
@@ -180,9 +196,14 @@
                 margin-bottom: 20px;
             }
 
+            p + p {
+                margin-top: 20px;
+            }
+
             &__desc{
                 color: $dark-grey;
                 line-height: 1.5;
+                font-size: 15px;
             }
         }
 
@@ -198,6 +219,11 @@
                 align-items: flex-start;
                 flex-direction: column;
                 margin-bottom: 25px;
+
+                @include breakpoint-up (tablet) {
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
 
                 p {
                     color: $moderate-cyab;
