@@ -9,6 +9,7 @@
 body {
   font-family: 'Commissioner', sans-serif;
   font-size: 16px;
+  position: relative;
 }
 
 h1, h2, h3, p, span, button {
@@ -53,6 +54,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 20px 40px;
   }
 }
 
@@ -72,6 +74,12 @@ img {
   font-size: 28px;
   font-weight: 700;
   color: #fff;
+}
+
+@media (min-width: 48rem) {
+  .hero .hero__mobile-nav .header .logo {
+    font-size: 20px;
+  }
 }
 
 .hero .hero__mobile-nav .header .hamburger {
@@ -122,8 +130,9 @@ img {
 
 .hero .hero__mobile-nav .header__menu ul li a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   width: 100%;
+  font-weight: 500;
 }
 
 .hero .hero__mobile-nav .header__menu ul li + li {
@@ -185,6 +194,12 @@ img {
   z-index: 9;
 }
 
+@media (min-width: 48rem) {
+  .content-container {
+    top: 200px;
+  }
+}
+
 .content-container .intro-desc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,11 +232,24 @@ img {
   text-align: center;
 }
 
+@media (min-width: 48rem) {
+  .content-container .intro-desc h2 br {
+    display: none;
+  }
+}
+
 .content-container .intro-desc p {
   font-size: 18px;
   font-weight: 500;
   color: #7a7a7a;
   padding: 25px 0;
+}
+
+@media (min-width: 48rem) {
+  .content-container .intro-desc p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
 }
 
 .content-container .intro-desc .bookmark {
@@ -234,6 +262,15 @@ img {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 70%;
+}
+
+@media (min-width: 48rem) {
+  .content-container .intro-desc .bookmark {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .content-container .intro-desc .bookmark span {
@@ -253,10 +290,38 @@ img {
 .content-container .intro-desc .bookmark .bookmark-btn {
   margin-left: 20px;
   text-align: center;
+  position: relative;
+}
+
+@media (min-width: 48rem) {
+  .content-container .intro-desc .bookmark .bookmark-btn img {
+    position: absolute;
+    left: -35px;
+  }
+}
+
+@media (min-width: 48rem) {
+  .content-container .intro-desc .bookmark .bookmark-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .content-container .intro-desc .bookmark .bookmark-btn p {
   display: none;
+}
+
+@media (min-width: 48rem) {
+  .content-container .intro-desc .bookmark .bookmark-btn p {
+    display: block;
+    padding: 10px 15px 10px 30px;
+    background: #e0e0e0;
+    border-radius: 20px;
+  }
 }
 
 .content-container .cash-section {

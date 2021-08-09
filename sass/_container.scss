@@ -24,6 +24,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: 20px 40px;
         }
 
         .header {
@@ -37,6 +38,10 @@
                 font-size: 28px;
                 font-weight: 700;
                 color: #fff;
+
+                @include breakpoint-up (tablet) {
+                    font-size: 20px;
+                }
             }
 
             .hamburger {
@@ -78,8 +83,9 @@
 
                     a {
                         text-decoration: none;
-                        color: #000;
+                        color: $white;
                         width: 100%;
+                        font-weight: 500;
                     }
                 }
 

@@ -10,6 +10,10 @@
     z-index: 9;
     
 
+    @include breakpoint-up(tablet) {
+        top: 200px;
+    }
+
     .intro-desc {
         display: flex;
         flex-direction: column;
@@ -31,6 +35,12 @@
         h2 {
             margin-top: 30px;
             text-align: center;
+
+            @include breakpoint-up(tablet) {
+                br {
+                    display: none;
+                }
+            }
         }
 
         p {
@@ -38,6 +48,11 @@
             font-weight: 500;
             color: $dark-grey;
             padding: 25px 0;
+
+            @include breakpoint-up(tablet) {
+                font-size: 16px;
+                padding: 15px 0;
+            }
         }
 
         .bookmark {
@@ -45,6 +60,12 @@
             align-items: center;
             justify-content: space-around;
             width: 70%;
+
+            @include breakpoint-up (tablet) {
+                width: 100%;
+                justify-content: space-between;
+                
+            }
 
             span {
                 padding: 15px 25px;
@@ -54,14 +75,37 @@
                 border-radius: 30px;
                 display: flex;
                 align-items: center;
+
+                
             }
 
             .bookmark-btn {
                 margin-left: 20px;
                 text-align: center;
+                position: relative;
+
+                @include breakpoint-up (tablet) {
+                    img {
+                        position:  absolute;
+                        left: -35px;
+                    }
+                }
+
+                @include breakpoint-up (tablet){
+                    display: flex;
+                    align-items: center;
+                }
 
                 p {
                     display: none;
+
+                    @include breakpoint-up(tablet) {
+                        display: block;
+                        padding: 10px 15px 10px 30px;
+                        background: $light-grey;
+                        border-radius: 20px;
+                        
+                    } 
                 }
             }
         }
