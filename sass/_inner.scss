@@ -15,7 +15,7 @@
     }
 
     @include breakpoint-up(desktop) {
-        top: 250px;
+        top: 260px;
         width: 50vw;
     }
 
@@ -48,15 +48,18 @@
             }
         }
 
-        p {
+        .intro-tag {
             font-size: 18px;
             font-weight: 500;
             color: $dark-grey;
             padding: 25px 0;
 
             @include breakpoint-up(tablet) {
-                font-size: 16px;
+                font-size: 15px;
                 padding: 15px 0;
+                margin-bottom: 25px;
+                width: 95%;
+                
             }
         }
 
@@ -292,6 +295,4 @@
             }
         }
     }
-
-
 }
