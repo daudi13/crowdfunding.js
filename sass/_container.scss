@@ -31,7 +31,11 @@
             padding: 20px 40px;
         }
 
-        
+        @include breakpoint-up (desktop) {
+            padding: 40px 100px;
+        }
+
+
 
         .header {
             display: flex;

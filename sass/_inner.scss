@@ -14,9 +14,10 @@
         top: 200px;
     }
 
-    // @include breakpoint-up(desktop) {
-
-    // }
+    @include breakpoint-up(desktop) {
+        top: 250px;
+        width: 50vw;
+    }
 
     .intro-desc {
         display: flex;

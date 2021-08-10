@@ -64,6 +64,12 @@ img {
   }
 }
 
+@media (min-width: 64rem) {
+  .hero .hero__mobile-nav {
+    padding: 40px 100px;
+  }
+}
+
 .hero .hero__mobile-nav .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -203,6 +209,13 @@ img {
 @media (min-width: 48rem) {
   .content-container {
     top: 200px;
+  }
+}
+
+@media (min-width: 64rem) {
+  .content-container {
+    top: 250px;
+    width: 50vw;
   }
 }
 
