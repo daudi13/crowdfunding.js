@@ -233,8 +233,8 @@ img {
   text-align: center;
   padding: 25px;
   background: #fff;
-  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
-          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
 }
 
@@ -351,8 +351,8 @@ img {
   margin-top: 30px;
   border-radius: 10px;
   padding: 25px;
-  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
-          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
 }
 
 @media (min-width: 48rem) {
@@ -433,8 +433,8 @@ img {
   margin-top: 30px;
   padding: 25px;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
-          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.35);
   margin-bottom: 30px;
 }
 
