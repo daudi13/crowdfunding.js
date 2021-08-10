@@ -16,6 +16,10 @@
         height: 250px;
     }
 
+    @include breakpoint-up (desktop) {
+        height: 350px;
+    }
+
     .hero__mobile-nav {
         padding: 20px;
         z-index: 10;
@@ -26,6 +30,8 @@
             justify-content: space-between;
             padding: 20px 40px;
         }
+
+        
 
         .header {
             display: flex;

@@ -38,6 +38,12 @@ img {
   }
 }
 
+@media (min-width: 64rem) {
+  .hero {
+    height: 350px;
+  }
+}
+
 .hero .hero__mobile-nav {
   padding: 20px;
   z-index: 10;
