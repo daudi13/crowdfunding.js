@@ -233,8 +233,8 @@ img {
   text-align: center;
   padding: 25px;
   background: #fff;
-  -webkit-box-shadow: 3px 5px 9px;
-          box-shadow: 3px 5px 9px;
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
   border-radius: 10px;
 }
 
@@ -342,6 +342,7 @@ img {
     padding: 10px 15px 10px 30px;
     background: #e0e0e0;
     border-radius: 20px;
+    color: #7a7a7a;
   }
 }
 
@@ -350,8 +351,8 @@ img {
   margin-top: 30px;
   border-radius: 10px;
   padding: 25px;
-  -webkit-box-shadow: 3px 5px 9px;
-          box-shadow: 3px 5px 9px;
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
 }
 
 @media (min-width: 48rem) {
@@ -432,8 +433,9 @@ img {
   margin-top: 30px;
   padding: 25px;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 5px 9px;
-          box-shadow: 3px 5px 9px;
+  -webkit-box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+          box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+  margin-bottom: 30px;
 }
 
 .content-container .about-content {

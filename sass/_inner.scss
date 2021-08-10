@@ -26,7 +26,7 @@
         text-align: center;
         padding: 25px;
         background: $white;
-        box-shadow: 3px 5px 9px;
+        box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
         border-radius: 10px;
  
 
@@ -83,8 +83,6 @@
                 border-radius: 30px;
                 display: flex;
                 align-items: center;
-
-                
             }
 
             .bookmark-btn {
@@ -112,7 +110,7 @@
                         padding: 10px 15px 10px 30px;
                         background: $light-grey;
                         border-radius: 20px;
-                        
+                        color: $dark-grey;
                     } 
                 }
             }
@@ -131,7 +129,7 @@
         margin-top: 30px;
         border-radius: 10px;
         padding: 25px;
-        box-shadow: 3px 5px 9px;
+        box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
 
         @include breakpoint-up(tablet) {
             display: flex;
@@ -195,7 +193,8 @@
         margin-top:  30px;
         padding: 25px;
         border-radius: 10px;
-        box-shadow: 3px 5px 9px;
+        box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.45);
+        margin-bottom: 30px;
 
         &-content {
             margin-bottom: 30px;
