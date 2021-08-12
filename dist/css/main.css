@@ -595,6 +595,15 @@ img {
   border-radius: 20px;
 }
 
+.container-back .form-container .main-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .container-back .form-container .radio-cont {
   text-align: left;
   margin: 0 auto 20px;
@@ -605,6 +614,14 @@ img {
   height: 20px;
   width: 20px;
   vertical-align: middle;
+}
+
+.container-back .form-container label {
+  font-weight: 600;
+}
+
+.container-back .form-container .title-con p {
+  margin-top: 8px;
 }
 
 .container-back .form-container + .form-container {

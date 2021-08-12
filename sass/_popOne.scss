@@ -32,6 +32,11 @@
         padding: 20px;
         border-radius: 20px;
 
+        .main-box {
+            display: flex;
+            align-items: center;
+        }
+
         .radio-cont {
             text-align: left;
             margin: 0 auto 20px;
@@ -42,6 +47,16 @@
             height: 20px;
             width: 20px;
             vertical-align: middle;
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        .title-con {
+            p {
+                margin-top: 8px;
+            }
         }
     }
 
