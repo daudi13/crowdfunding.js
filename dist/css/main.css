@@ -620,6 +620,7 @@ img {
   height: 20px;
   width: 20px;
   vertical-align: middle;
+  background-color: yellow;
 }
 
 .container-back .form-container label {
@@ -628,9 +629,39 @@ img {
 
 .container-back .form-container .title-con p {
   margin-top: 8px;
+  color: #147b74;
+  font-weight: 500;
 }
 
 .container-back .form-container + .form-container {
   margin-top: 20px;
+}
+
+input[type='radio']::after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: transparent;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  height: 15px;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: relative;
+  background-color: #147b74;
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
 }
 /*# sourceMappingURL=main.css.map */
